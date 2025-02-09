@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <script type="module" src="/src/main.ts"></script>
+    <title>Turnos clínica lemoncode</title>
+  </head>
+  <body>
+
+    <!-- Turno del display -->
+
+    <div class="turno-display">
+      <h1 id= "numero-turno" class="numero-turno">01</h1>
+      <p class="texto-turno">Por favor, acérquese al mostrador</p>
+    </div>
+
+    <!-- Botones de los turnos -->
+
+    <div class = "botones-turno">
+      
+      <button id = "siguiente">Siguiente</button>
+      <button id = "anterior">Anterior</button>
+      <button id = "reset">Reset</button>
+
+    </div>
+
+    <!-- // Challenge boton del operador -->
+
+    <div class="operador">
+
+      <button id="turno-operador">Valor del operario</button>
+
+      <input type="number" id="nuevo-turno" placeholder="Ingresa nuevo turno">
+
+    </div>
+    
+  </body>
+</html>
